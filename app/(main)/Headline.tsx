@@ -80,10 +80,12 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
-          我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
+          我是 Thomas，目前住在陕西西安。
+          <br />
+          一个2D马里奥的粉丝，喜欢玩横板过关类的马里奥游戏，尤其是新超级马里奥兄弟Wii/U以及超级马里奥制造。
+          <br />
+          也是一个练习时长7年半的<strong>软件工程师</strong>，主要用做前端开发，对Angular比较感兴趣，目前仍然在努力学习前端相关的知识。
+          {/* <PeekabooLink href="https://zolD play.com">佐玩</PeekabooLink> */}
         </Balancer>
       </motion.p>
       <motion.div
@@ -99,33 +101,28 @@ export function Headline() {
         }}
       >
         <SocialLink
-          href="https://cali.so/twitter"
+          href="https://twitter.com/ThomasZhan18567"
           aria-label="我的推特"
           platform="twitter"
         />
         <SocialLink
-          href="https://cali.so/youtube"
-          aria-label="我的 YouTube"
-          platform="youtube"
+          href="https://www.facebook.com/profile.php?id=61552175120784"
+          aria-label="我的Facebook"
+          platform="facebook"
         />
         <SocialLink
-          href="https://cali.so/bilibili"
+          href="https://space.bilibili.com/393668857"
           aria-label="我的 Bilibili"
           platform="bilibili"
         />
         <SocialLink
-          href="https://cali.so/github"
+          href="https://github.com/youling4438"
           aria-label="我的 GitHub"
           platform="github"
         />
-        <SocialLink
-          href="https://cali.so/tg"
-          aria-label="我的 Telegram"
-          platform="telegram"
-        />
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
-          href="mailto:hi@cali.so"
+          href="mailto:thomasrun4438@gmail.com"
           aria-label="我的邮箱"
           platform="mail"
         />

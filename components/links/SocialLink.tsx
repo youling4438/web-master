@@ -13,12 +13,14 @@ import {
   TelegramIcon,
   TwitterIcon,
   YouTubeIcon,
+  FacebookIcon,
 } from '~/assets'
 import { Tooltip } from '~/components/ui/Tooltip'
 
 type IconType = (props: IconProps) => JSX.Element
 type Platform =
   | 'github'
+  | 'facebook'
   | 'twitter'
   | 'youtube'
   | 'telegram'
@@ -32,6 +34,7 @@ type PlatformInfo = {
 }
 const iconMapper: { [key: string]: PlatformInfo } = {
   '(?:github.com)': { icon: GitHubIcon, platform: 'github', label: 'GitHub' },
+  '(?:facebook.com)': { icon: FacebookIcon, platform: 'facebook', label: 'Facebook' },
   '((?:t.co)|(?:twitter.com))': {
     icon: TwitterIcon,
     platform: 'twitter',
