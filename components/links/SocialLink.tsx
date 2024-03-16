@@ -7,13 +7,13 @@ import React from 'react'
 import {
   AtomIcon,
   BilibiliIcon,
+  FacebookIcon,
   GitHubIcon,
   type IconProps,
   MailIcon,
   TelegramIcon,
   TwitterIcon,
   YouTubeIcon,
-  FacebookIcon,
 } from '~/assets'
 import { Tooltip } from '~/components/ui/Tooltip'
 
