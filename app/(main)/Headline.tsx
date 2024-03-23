@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import Balancer from 'react-wrap-balancer'
 
-import { SparkleIcon, UserSecurityIcon } from '~/assets'
+import { MarioIcon, SparkleIcon } from '~/assets'
 // import { PeekabooLink } from '~/components/links/PeekabooLink'
 import { SocialLink } from '~/components/links/SocialLink'
 
@@ -26,7 +26,7 @@ function Designer() {
         <span className="absolute -bottom-[3.5px] -left-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-[3.5px] -top-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      设计师
+      细节控
     </span>
   )
 }
@@ -35,16 +35,16 @@ function OCD() {
   return (
     <span className="group inline-flex items-center">
       <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>细节控</span>
+      <span>追星族</span>
     </span>
   )
 }
 
-function Founder() {
+function Player() {
   return (
     <span className="group inline-flex items-center">
-      <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>创始人</span>
+      <MarioIcon className="mr-1 inline-flex fill-zinc-600/80  dark:fill-zinc-200/20 group-hover:fill-zinc-700/95 dark:group-hover:fill-zinc-100/20" />
+      <span>Mario Player</span>
     </span>
   )
 }
@@ -63,9 +63,9 @@ export function Headline() {
           duration: 0.3,
         }}
       >
-        <Developer />，<Designer />，
+        <Developer />， <Designer />
         <span className="block h-2" />
-        <OCD />，<Founder />
+        <OCD />， <Player />
       </motion.h1>
       <motion.p
         className="mt-6 text-base text-zinc-600 dark:text-zinc-400"
@@ -80,11 +80,10 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Thomas，目前住在陕西西安。
+          我是 <b>Thomas</b>，目前住在陕西西安。
+          一个练习时长7年半的<strong>软件工程师</strong>，主要用做前端开发，对<strong>Angular</strong>比较感兴趣，目前仍然在努力学习前端相关的知识。
           <br />
-          一个2D马里奥的粉丝，喜欢玩横板过关类的马里奥游戏，尤其是新超级马里奥兄弟Wii/U以及超级马里奥制造。
-          <br />
-          也是一个练习时长7年半的<strong>软件工程师</strong>，主要用做前端开发，对Angular比较感兴趣，目前仍然在努力学习前端相关的知识。
+          也是一个2D马里奥的粉丝，喜欢玩横板过关类的马里奥游戏，尤其是新超级马里奥兄弟Wii/U以及超级马里奥制造。
           {/* <PeekabooLink href="https://zolD play.com">佐玩</PeekabooLink> */}
         </Balancer>
       </motion.p>
