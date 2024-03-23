@@ -39,43 +39,43 @@ export default function Layout({
                 src={`${emailConfig.baseUrl}/icon.png`}
                 width="24"
                 height="24"
-                alt="Cali"
+                alt="Web Master"
                 className="mx-auto my-0"
               />
               <Text className="text-center">
                 <Link
-                  href="https://cali.so"
+                  href="https://web-master-thomas.vercel.app"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Cali Castle</strong>
+                  <strong>Web Master</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
+                开发者、细节控、追星族、Mario Player
               </Text>
               <Text className="text-center">
                 <Link
-                  href="https://cali.so/twitter"
+                  href="https://twitter.com/ThomasZhan18567"
                   className="text-xs text-zinc-600 underline"
                 >
                   Twitter
                 </Link>{' '}
                 |&nbsp;
-                <Link
-                  href="https://cali.so/youtube"
+                {/* <Link
+                  href="https://web-master-thomas.vercel.app/youtube"
                   className="text-xs text-zinc-600 underline"
                 >
                   YouTube
-                </Link>{' '}
+                </Link>{' '} */}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/github"
+                  href="https://github.com/youling4438"
                   className="text-xs text-zinc-600 underline"
                 >
                   GitHub
                 </Link>{' '}
                 |&nbsp;
                 <Link
-                  href="https://cali.so/bilibili"
+                  href="https://space.bilibili.com/393668857"
                   className="text-xs text-zinc-600 underline"
                 >
                   哔哩哔哩
