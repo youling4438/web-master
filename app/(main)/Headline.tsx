@@ -80,7 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 <b>Thomas</b>，目前住在陕西西安。
+          我是 <b>Thomas</b>，目前住在古都西安。
           一个练习时长7年半的<strong>软件工程师</strong>，主要用做前端开发，对<strong>Angular</strong>比较感兴趣，目前仍然在努力学习前端相关的知识。
           <br />
           也是一个2D马里奥的粉丝，喜欢玩横板过关类的马里奥游戏，尤其是新超级马里奥兄弟Wii/U以及超级马里奥制造。
