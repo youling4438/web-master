@@ -6,12 +6,12 @@ import { Button, Heading, Hr, Img, Link, Section, Text } from './_components'
 import Layout from './Layout'
 
 const NewReplyCommentEmail = ({
-  postLink = 'https://web-master-thomas.vercel.app',
+  postLink = 'https://web-master.zeabur.app',
   postTitle = '测试文章 Lorem ipsum dolor sit amet, consectetur adipisicing elit',
   postImageUrl = 'https://cn.zolplay.com/api/og?title=测试文章',
   userFirstName = 'Web',
   userLastName = 'Master',
-  userImageUrl = 'https://web-master-thomas.vercel.app/icon.png',
+  userImageUrl = 'https://web-master.zeabur.app/icon.png',
   commentContent = '*测试评论*\n- Wow wtf\n- Cool',
 }: {
   postLink?: string | null

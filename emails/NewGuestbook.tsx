@@ -6,10 +6,10 @@ import { Button, Heading, Hr, Img, Section, Text } from './_components'
 import Layout from './Layout'
 
 const NewGuestbookEmail = ({
-  link = 'https://web-master-thomas.vercel.app/guestbook',
+  link = 'https://web-master.zeabur.app/guestbook',
   userFirstName = 'Web',
   userLastName = 'Master',
-  userImageUrl = 'https://web-master-thomas.vercel.app/icon.png',
+  userImageUrl = 'https://web-master.zeabur.app/icon.png',
   commentContent = '*测试评论*\n- Wow wtf\n- Cool',
 }: {
   link?: string | null
