@@ -44,7 +44,7 @@ export default function Layout({
               />
               <Text className="text-center">
                 <Link
-                  href="https://web-master-thomas.vercel.app"
+                  href="https://www.zhangqi.dev"
                   className="text-zinc-700 underline"
                 >
                   <strong>Web Master</strong>
@@ -61,7 +61,7 @@ export default function Layout({
                 </Link>{' '}
                 |&nbsp;
                 {/* <Link
-                  href="https://web-master-thomas.vercel.app/youtube"
+                  href="https://www.zhangqi.dev/youtube"
                   className="text-xs text-zinc-600 underline"
                 >
                   YouTube

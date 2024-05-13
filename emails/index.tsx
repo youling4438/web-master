@@ -8,7 +8,7 @@ export default function Email() {
       <Button
         pX={20}
         pY={12}
-        href="https://web-master-thomas.vercel.app"
+        href="https://www.zhangqi.dev"
         style={{ background: '#000', color: '#fff' }}
       >
         Click me
