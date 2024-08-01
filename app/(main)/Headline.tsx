@@ -104,11 +104,6 @@ export function Headline() {
           aria-label="我的推特"
           platform="twitter"
         />
-        {/* <SocialLink
-          href="https://www.facebook.com/profile.php?id=61552175120784"
-          aria-label="我的Facebook"
-          platform="facebook"
-        /> */}
         <SocialLink
           href="https://space.bilibili.com/393668857"
           aria-label="我的 Bilibili"

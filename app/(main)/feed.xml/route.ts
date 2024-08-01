@@ -1,7 +1,8 @@
 import RSS from 'rss'
 
 import { seo } from '~/lib/seo'
-import { getLatestBlogPosts } from '~/sanity/queries'
+
+import { middleware } from './middleware';
 
 export const revalidate = 60 * 60 // 1 hour
 
@@ -16,7 +17,7 @@ export async function GET() {
     generator: 'PHP 9.0',
   })
 
-  const data = await getLatestBlogPosts({ limit: 999 })
+  const data = await middleware();
   if (!data) {
     return new Response('Not found', { status: 404 })
   }
