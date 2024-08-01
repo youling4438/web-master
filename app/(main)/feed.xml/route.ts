@@ -6,6 +6,8 @@ import { middleware } from './middleware';
 
 export const revalidate = 60 * 60 // 1 hour
 
+export const runtime = 'edge'
+
 export async function GET() {
   const feed = new RSS({
     title: seo.title,

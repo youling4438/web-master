@@ -13,6 +13,8 @@ import { url } from '~/lib'
 import { resend } from '~/lib/mail'
 import { ratelimit } from '~/lib/redis'
 
+export const runtime = 'edge'
+
 function getKey(id?: string) {
   return `guestbook${id ? `:${id}` : ''}`
 }

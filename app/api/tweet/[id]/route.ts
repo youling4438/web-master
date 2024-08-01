@@ -1,7 +1,7 @@
 import cors from 'edge-cors'
 import { NextResponse } from 'next/server'
 import { getTweet } from 'react-tweet/api'
-
+export const runtime = 'edge'
 type RouteSegment = { params: { id: string } }
 
 export async function GET(req: Request, { params }: RouteSegment) {

@@ -19,6 +19,8 @@ import { resend } from '~/lib/mail'
 import { redis } from '~/lib/redis'
 import { client } from '~/sanity/lib/client'
 
+export const runtime = 'edge'
+
 const ratelimit = new Ratelimit({
   redis,
   limiter: Ratelimit.slidingWindow(10, '10 s'),

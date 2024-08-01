@@ -12,6 +12,8 @@ import { url } from '~/lib'
 import { resend } from '~/lib/mail'
 import { redis } from '~/lib/redis'
 
+export const runtime = 'edge'
+
 const newsletterFormSchema = z.object({
   email: z.string().email().min(1),
 })
