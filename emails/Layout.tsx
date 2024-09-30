@@ -59,7 +59,6 @@ export default function Layout({
                 >
                   Twitter
                 </Link>{' '}
-                |&nbsp;
                 {/* <Link
                   href="https://www.zhangqi.dev/youtube"
                   className="text-xs text-zinc-600 underline"
